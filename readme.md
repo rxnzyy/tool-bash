@@ -78,13 +78,13 @@ chmod +x utility.sh
 ### Записать вывод в лог-файл
 
 ```bash
-./utility.sh -u -l users.log
+./utility.sh -u -l /examples/users.log
 ```
 
 ### Записать ошибки в файл
 
 ```bash
-./utility.sh -p -e errors.log
+./utility.sh -p -e /examples/users.log
 ```
 
 ### Вывести справку
